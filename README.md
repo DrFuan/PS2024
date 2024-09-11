@@ -34,6 +34,7 @@ libraryDependencies += "org.postgresql" % "postgresql" % "42.2.20"
 Para crear la bd, abro pgAdmin, me conecto al servidor con el usuario "postgres" y la contraseña "123"
 En Database, creo la base de datos llamada "project" con el owner "postgres"
 ![image](https://github.com/user-attachments/assets/b5bf205d-bc32-4b73-b598-839aef547d3b)
+![image](https://github.com/user-attachments/assets/0363544d-253e-4439-95d4-d94af07f76cf)
 Una vez, creada, me dirijo a la base de datos y presiono Query Tool 
 ![image](https://github.com/user-attachments/assets/bd58c6ec-f150-4ef1-b22a-388a17e25b28)
 Una vez allí, ingreso el script de las tablas de la base de datos:
