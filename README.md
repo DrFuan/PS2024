@@ -27,11 +27,9 @@ db.default.driver = org.postgresql.Driver
 db.default.url = "jdbc:postgresql://localhost:5432/malla_vial"
 db.default.username = "postgres"        
 db.default.password = "123"    
-![image](https://github.com/user-attachments/assets/6326cb21-bbfd-4083-a30c-98791727710f)
 
 Y el archivo build.sbt con esta linea:
 libraryDependencies += "org.postgresql" % "postgresql" % "42.2.20"
-![image](https://github.com/user-attachments/assets/af89f40f-66a3-481b-9f55-ac258b685faf)
 
 Para crear la bd, desde la consola, accedo al usuario de postgres con la contraseña 123 y ejecuto lo siguiente:
 psql -U postgres
